@@ -73,7 +73,7 @@ accuracy = accuracy_score(yTest, predict)
 
 
 
-(## Model Deployment)
+## Model Deployment
 The trained model is integrated into a Tkinter desktop application, allowing users to load CSV files and visualize the classification results. The UI consists of buttons to load files or exit the application.
 
 ```python
