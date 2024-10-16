@@ -14,7 +14,6 @@ This project aims to build a machine learning model that classifies movement dat
 - [Model Evaluation](#model-evaluation)
 - [Model Deployment](#model-deployment)
 - [Usage](#usage)
-- [License](#license)
 
 ## Features
 
@@ -52,3 +51,43 @@ yTrain = df_train_normalized['label'].values
 model = LogisticRegression()
 clf = make_pipeline(preprocessing.StandardScaler(), model)
 clf.fit(xTrain, yTrain)
+
+After training, the model is evaluated on a test dataset to assess its accuracy, precision, recall, and F1-score.
+
+## Model Evaluation
+The model's performance is evaluated using various metrics, including:
+
+- Confusion Matrix
+- ROC Curve
+- AUC Score
+
+```python
+# Evaluate model
+yTest = np.array(df_test_normalized["label"].values).astype(int)
+predict = clf.predict(xTest)
+# Calculate evaluation metrics
+precision = precision_score(yTest, predict)
+recall = recall_score(yTest, predict)
+f1 = f1_score(yTest, predict)
+accuracy = accuracy_score(yTest, predict)
+
+
+
+## Model Deployment
+The trained model is integrated into a Tkinter desktop application, allowing users to load CSV files and visualize the classification results. The UI consists of buttons to load files or exit the application.
+
+```python
+root = Tk()
+ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=1)
+ttk.Button(frm, text="Load File", command=openFile).grid(column=0, row=1)
+root.mainloop()
+
+
+## Usage
+1. Clone the repository: git clone https://github.com/yourusername/yourrepository.git
+
+2. Navigate to the project directory: cd yourrepository
+
+3. Install required packages: pip install -r requirements.txt
+
+4. Run the application: python app.py
