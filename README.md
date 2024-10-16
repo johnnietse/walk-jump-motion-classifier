@@ -54,7 +54,7 @@ clf.fit(xTrain, yTrain)
 
 After training, the model is evaluated on a test dataset to assess its accuracy, precision, recall, and F1-score.
 
-**## Model Evaluation**
+## Model Evaluation
 The model's performance is evaluated using various metrics, including:
 
 - Confusion Matrix
@@ -72,8 +72,8 @@ f1 = f1_score(yTest, predict)
 accuracy = accuracy_score(yTest, predict)
 
 
-**
-## Model Deployment**
+
+(## Model Deployment)
 The trained model is integrated into a Tkinter desktop application, allowing users to load CSV files and visualize the classification results. The UI consists of buttons to load files or exit the application.
 
 ```python
@@ -82,9 +82,8 @@ ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=1)
 ttk.Button(frm, text="Load File", command=openFile).grid(column=0, row=1)
 root.mainloop()
 
-**
 
-## Usage**
+## Usage
 1. Clone the repository: git clone https://github.com/yourusername/yourrepository.git
 
 2. Navigate to the project directory: cd yourrepository
