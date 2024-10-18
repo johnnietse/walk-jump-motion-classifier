@@ -13,7 +13,7 @@ This project aims to build a machine learning model that classifies movement dat
 - [Training the Classifier](#training-the-classifier)
 - [Model Evaluation](#model-evaluation)
 - [Model Deployment](#model-deployment)
-- [Usage](#usage)
+- [Setup](#setup)
 
 ## Features
 
@@ -54,6 +54,7 @@ clf.fit(xTrain, yTrain)
 
 After training, the model is evaluated on a test dataset to assess its accuracy, precision, recall, and F1-score.
 
+
 ## Model Evaluation
 The model's performance is evaluated using various metrics, including:
 
@@ -70,7 +71,7 @@ precision = precision_score(yTest, predict)
 recall = recall_score(yTest, predict)
 f1 = f1_score(yTest, predict)
 accuracy = accuracy_score(yTest, predict)
-
+```
 
 
 ## Model Deployment
@@ -81,13 +82,37 @@ root = Tk()
 ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=1)
 ttk.Button(frm, text="Load File", command=openFile).grid(column=0, row=1)
 root.mainloop()
+```
 
 
 ## Usage
-1. Clone the repository: git clone https://github.com/yourusername/yourrepository.git
+1. Clone the repository: git clone https://github.com/johnnietse/walk-or-jump-motion-classifer-desktop-app.git
 
-2. Navigate to the project directory: cd yourrepository
+2. Navigate to the project directory: cd walk-or-jump-motion-classifer-desktop-app
 
 3. Install required packages: pip install -r requirements.txt
 
 4. Run the application: python app.py
+
+
+## Setup
+To set up and run the project:
+
+1. Download the desktop-app_motion_classifier_walk_or_jump.zip file:
+
+- Navigate to the zipped-files folder above and download the desktop-app_motion_classifier_walk_or_jump.zip file.
+
+2. Unzip the File:
+
+- Extract the contents of the downloaded file.
+
+3. Open it in a Python IDE environment:
+
+- Open Android Studio and select the unzipped project folder.
+
+4. Build and Run:
+
+- Build the project and run it on your desktop environment to start using the Motion Classifier app.
+
+
+5. Run the application: python app.py
