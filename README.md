@@ -7,7 +7,7 @@ This project aims to build a machine learning model that classifies movement dat
 ## Table of Contents
 
 - [Features](#features)
-- [Technologies Used](#technologies-used)
+- [Libraries Used](#libraries-used)
 - [Data Collection](#data-collection)
 - [Feature Extraction and Normalization](#feature-extraction-and-normalization)
 - [Training the Classifier](#training-the-classifier)
@@ -22,15 +22,17 @@ This project aims to build a machine learning model that classifies movement dat
 - Detailed evaluation metrics including precision, recall, F1-score, and confusion matrix.
 - ROC curve plotting and AUC score calculation.
 
-## Technologies Used
+## Libraries Used
 
-- Python
-- Scikit-learn
-- NumPy
+- Tkinter
 - Pandas
 - Matplotlib
+- Scikit-learn
+- NumPy
+- SciPy
 - Seaborn
-- Tkinter
+- h5py
+
 
 ## Data Collection
 
