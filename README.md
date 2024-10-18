@@ -13,7 +13,6 @@ This project aims to build a machine learning model that classifies movement dat
 - [Training the Classifier](#training-the-classifier)
 - [Model Evaluation](#model-evaluation)
 - [Model Deployment](#model-deployment)
-- [Setup](#setup)
 
 ## Features
 
@@ -87,27 +86,3 @@ ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=1)
 ttk.Button(frm, text="Load File", command=openFile).grid(column=0, row=1)
 root.mainloop()
 ```
-
-
-
-## Setup
-To set up and run the project:
-
-1. Download the desktop-app_motion_classifier_walk_or_jump.zip file:
-
-- Navigate to the zipped-files folder above and download the desktop-app_motion_classifier_walk_or_jump.zip file.
-
-2. Unzip the File:
-
-- Extract the contents of the downloaded file.
-
-3. Open it in a Python IDE environment:
-
-- Open Android Studio and select the unzipped project folder.
-
-4. Build and Run:
-
-- Build the project and run it on your desktop environment to start using the Motion Classifier app.
-
-
-5. Run the application: python app.py
