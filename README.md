@@ -1,10 +1,10 @@
 # Walking vs Jumping Classification Project
 
-## Overview of project goal
+## Overview of Project Goal
 
 The goal of this project is to develop a desktop application that distinguishes between 'walking' and 'jumping' using accelerometer data collected from a smartphone. The application is implemented and deployed as an executable Tkinter desktop app that allows users to visualize the results.
 
-## Project description
+## Project Description
 This project involves creating a simple desktop application that accepts accelerometer data (x, y, and z axes) in CSV format and outputs a separate CSV file containing labels (‘walking’ or ‘jumping’) for the corresponding input data for further analysis. The classification will be performed using a logistic regression model.
 
 ## Table of Contents
