@@ -17,7 +17,7 @@ This project involves creating a simple desktop application that accepts acceler
 - [Data Storing](#data-storing)
 - [Visualization](#visualization)
 - [Pre-processing](#pre-processing)
-- [Feature Extraction & Normalization](#feature-extraction-and-normalization)
+- [Feature Extraction and Normalization](#feature-extraction-and-normalization)
 - [Training the Model](#training-the-model)
 - [Creating a Simple Desktop Application](#creating-a-simple-desktop-application)
 - [Usage Instructions](#usage-instructions)
@@ -136,7 +136,7 @@ processed_testData = [preprocess_data(frame) for frame in testData]
 ```
 
 
-## Feature Extraction & Normalization
+## Feature Extraction and Normalization
 Relevant features are extracted from the accelerometer data, and normalization is applied to prepare the data for model training.
 
 ```python
@@ -177,7 +177,7 @@ model.fit(xTrain, yTrain)
 ```
 
 
-## Creating a Desktop Application
+## Creating a Simple Desktop Application
 A simple user interface (UI) is created using Tkinter to load the CSV file and display results.
 
 ```python
