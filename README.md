@@ -51,6 +51,8 @@ yTrain = df_train_normalized['label'].values
 model = LogisticRegression()
 clf = make_pipeline(preprocessing.StandardScaler(), model)
 clf.fit(xTrain, yTrain)
+```
+
 
 After training, the model is evaluated on a test dataset to assess its accuracy, precision, recall, and F1-score.
 
@@ -84,15 +86,6 @@ ttk.Button(frm, text="Load File", command=openFile).grid(column=0, row=1)
 root.mainloop()
 ```
 
-
-## Usage
-1. Clone the repository: git clone https://github.com/johnnietse/walk-or-jump-motion-classifer-desktop-app.git
-
-2. Navigate to the project directory: cd walk-or-jump-motion-classifer-desktop-app
-
-3. Install required packages: pip install -r requirements.txt
-
-4. Run the application: python app.py
 
 
 ## Setup
