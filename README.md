@@ -204,6 +204,6 @@ root.mainloop()
 
 ## Usage Instructions
 1. Data Preparation: Ensure that you have the accelerometer data files in CSV format.
-2. Run the Application: Execute the script containing the Tkinter interface to launch the GUI, where you can load your CSV file and classify the data.
+2. Run the Application: Execute the script containing the Tkinter interface (app.py) to launch the GUI, where you can load your CSV file and classify the data.
 3. Load the data file: Click on the "Load File" button to select your CSV file containing accelerometer data.
 4. View Results: The application will process the data and output the classification results into a new separate CSV file named 'output.csv'.
