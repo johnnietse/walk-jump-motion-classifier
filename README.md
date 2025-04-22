@@ -21,6 +21,7 @@ This project involves creating a simple desktop application that accepts acceler
 - [Training the Model](#training-the-model)
 - [Creating a Simple Desktop Application](#creating-a-simple-desktop-application)
 - [Usage Instructions](#usage-instructions)
+- [Screenshots] (#screenshots) 
 
 ## Features
 - Accepts accelerometer data in CSV format (x, y, z axes).
@@ -207,3 +208,7 @@ root.mainloop()
 2. Run the Application: Execute the script containing the Tkinter interface (app.py) to launch the GUI, where you can load your CSV file and classify the data.
 3. Load the data file: Click on the "Load File" button to select your CSV file containing accelerometer data.
 4. View Results: The application will process the data and output the classification results into a new separate CSV file named 'output.csv'.
+
+---
+
+## 📸 Screenshots 
