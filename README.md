@@ -21,7 +21,7 @@ This project involves creating a simple desktop application that accepts acceler
 - [Training the Model](#training-the-model)
 - [Creating a Simple Desktop Application](#creating-a-simple-desktop-application)
 - [Usage Instructions](#usage-instructions)
-- [Screenshots] (#screenshots) 
+- [Screenshots](#screenshots)
 
 ## Features
 - Accepts accelerometer data in CSV format (x, y, z axes).
@@ -212,3 +212,4 @@ root.mainloop()
 ---
 
 ## 📸 Screenshots 
+![Walkorjump-motion-classifer](https://github.com/user-attachments/assets/5e2c432b-d48b-44d8-8362-469f83619416)
