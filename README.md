@@ -212,6 +212,9 @@ root.mainloop()
 ## 📸 Screenshots of other test results (with a different set of data)
 ![Walkorjump-motion-classifer](https://github.com/user-attachments/assets/5e2c432b-d48b-44d8-8362-469f83619416)
 
+---
+
+
 ![pic1](https://github.com/user-attachments/assets/936aa583-0233-498d-9e1e-792fe9f6ff3c
 
 ---
