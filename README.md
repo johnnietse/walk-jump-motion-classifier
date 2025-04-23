@@ -19,7 +19,6 @@ This project involves creating a simple desktop application that accepts acceler
 - [Training the Model](#training-the-model)
 - [Creating a Simple Desktop Application](#creating-a-simple-desktop-application)
 - [Usage Instructions](#usage-instructions)
-- [📸 Screenshots of other test results (with a different set of data)](#screenshots)
 
 ## Features
 - Accepts accelerometer data in CSV format (x, y, z axes).
