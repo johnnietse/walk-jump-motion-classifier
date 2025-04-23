@@ -211,5 +211,21 @@ root.mainloop()
 
 ---
 
-## 📸 Screenshots 
+## 📸 Screenshots of other test results (with a different set of data)
 ![Walkorjump-motion-classifer](https://github.com/user-attachments/assets/5e2c432b-d48b-44d8-8362-469f83619416)
+![raw-acceleration-data](https://github.com/user-attachments/assets/efaf1ec3-3440-49e2-9626-e95ad49205e4)
+![filtered-training-data-pt1](https://github.com/user-attachments/assets/9182e231-407d-4bf4-90cc-7f6dcadbcace)
+![filtered-training-data-pt2](https://github.com/user-attachments/assets/671c42b3-32ca-47d0-9e41-7b7cf2dac2d9)
+![filtered-training-data-pt3](https://github.com/user-attachments/assets/2c71128d-8e84-48f2-bc06-5e1af9c927dd)
+![unfiltered-acceleration-data](https://github.com/user-attachments/assets/9d7877b5-1fa0-421f-8ce9-d9196f7ca9e5)
+
+![Rolling-average-filtered-data-40pts](https://github.com/user-attachments/assets/b88313db-892f-4665-92b1-97404dc34a19)
+![Rolling-average-filtered-data-60pts](https://github.com/user-attachments/assets/8948d6ef-6c9c-4cd4-ac6e-d80a9ff362cb)
+![Rolling-average-filtered-data-90pts png ](https://github.com/user-attachments/assets/92cfc013-ab84-4525-8cf7-40cdc6907b14)
+![Rolling-average-filtered-data-120pts png ](https://github.com/user-attachments/assets/62332158-9f9b-424a-af68-3988d16a90e3)
+
+![Scatter-Plot-of-Features-after-filtering-and-feature-extraction](https://github.com/user-attachments/assets/c512629f-9a35-460c-9eaf-785bded6f64c)
+![Scatter-Plot-of-Features-(Outliers-Removed)](https://github.com/user-attachments/assets/507b5e75-0956-4df3-811b-024bc93caec6)
+![Model-Confusion-Matrix](https://github.com/user-attachments/assets/c0639a8a-0084-464c-8d69-1aaba329b1c7)
+![Model-ROC-Curve](https://github.com/user-attachments/assets/6e66f8f0-158f-4d6b-bd1c-e74e657b147a)
+![Application generated plot of jumping and walking (Test Data)](https://github.com/user-attachments/assets/ca716fc5-7ca4-4e57-92e6-767b6d4b612f)
