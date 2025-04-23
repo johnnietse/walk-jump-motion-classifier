@@ -215,7 +215,7 @@ root.mainloop()
 ---
 
 
-![pic1](https://github.com/user-attachments/assets/936aa583-0233-498d-9e1e-792fe9f6ff3c
+![pic1](https://github.com/user-attachments/assets/936aa583-0233-498d-9e1e-792fe9f6ff3c)
 
 ---
 
