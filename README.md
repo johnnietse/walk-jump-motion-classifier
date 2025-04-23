@@ -1,5 +1,3 @@
-![Picture18](https://github.com/user-attachments/assets/a0a344ad-080e-4bd8-af27-7a82409ed230)# Walking vs Jumping Classification Project
-
 ## Overview of Project Goal
 
 The goal of this project is to develop a desktop application that distinguishes between 'walking' and 'jumping' using accelerometer data collected from a smartphone. The application is implemented and deployed as an executable Tkinter desktop app that allows users to visualize the results.
